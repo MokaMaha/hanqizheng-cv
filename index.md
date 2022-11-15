@@ -1,15 +1,13 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: HanQizheng
+phone: 166-0025-5706
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
-homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: hanqizheng598@gmail.com
+  text: hanqizheng598@gmail.com
 ---
 
-# Wode **Ni**
+# 韩启正
 
 <!--
 include contact information from the front matter
@@ -21,150 +19,72 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## 基本信息
+- 基本： 韩启正 &nbsp;\|&nbsp; 男 &nbsp;\|&nbsp; 1996
+- 学历： 南开大学滨海学院 &nbsp;\|&nbsp; 本科 &nbsp;\|&nbsp; 计算机科学与技术 &nbsp;\|&nbsp; 2015.09 - 2019.06
+- Blog：&nbsp;hanqizheng.vercel.app 或 hanqizheng.github.io 
 
-### **Carnegie Mellon University** `2018.9 -`
+## 工作经历
 
-```
-Pittsburgh, PA
-```
+#### **北京希瑞亚斯科技有限公司（Moka）- 前端开发工程师** `2020.07 - 至今`
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
-
-### **Columbia University** `2016.9 - 2018.5`
-
-```
-New York, NY
-```
-
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
-
-### **Dickinson College** `2013.9 - 2016.5`
-
-```
-Carlisle, PA
-```
-
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
-
-## Publications
-
-### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
-**Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
-_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/uist-21-recode.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/uist-21-recode.txt)]
-[[video preview](https://youtu.be/fMdHK9UrgQ4)]
-[[talk](https://youtu.be/_GQ8E7EMMws)]
+- 负责 Sugar Design (Moka的基础组件库) 的开发与维护
+- 负责 Sweets (Moka的业务组件库) 的开发与维护
+- 负责 Moka People 薪酬、组织人事相关的业务开发、日常oncall等
 
 
-### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
-Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_ACM Transactions on Graphics (SIGGRAPH'20)._<br>
-[[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
-[[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)]
+#### **中发智能科技有限公司 - 前端开发工程师** `2019.06 - 2020.05`
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
+- 负责公司若干项目的业务需求开发
+- 负责公司部分移动 App 的开发
 
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+## 项目经历
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)
+### **基础组件库 - Sugar Design**
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+> 技术栈：React \| TypeScript
 
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)
+> Table技术说明文档: https://hanqizheng.github.io/2021/11/28/NewTable.html<br> 
 
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+Sugar Design 是 Moka 的前端基础组件库。我主要负责：
 
----
+- Sugar 文档重构
+- **独立开发**Table组件，表现流畅，**解决 Moka 现阶段因 Table 导致的性能问题**，良好支撑Moka业务场景。
+- LineClamp、Layout等组件开发
+- Sugar CSS 变量抽离，完成Sugar的主题色系统，提供sugar自定义主题色能力
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+作为 Sugar 的开发者和维护者，主动参与到 Sugar 规范的制定中，并且与组内其他同学一同推行 Sugar 开发流程规范，完善 Sugar 相关文档和生态的建设。
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+### **Moka People 信息采集** `2022.04 - 2021.06`
 
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+> 技术栈：React \| TypeScript\| Formily
 
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
+信息采集是 Moka People 入职前信息收集业务。我在信息采集需求中主要负责：
 
-## Experience
-### **Apple** `2022.5 - 2022.9`
+- 移动端登录页、信息采集首页的开发任务
+- 封装业务组件(地址、银行卡、异步单选)，以及Formily配套的表单组件。后续在 Moka People 中广泛使用
 
-_Research Intern - Machine Intelligence_<br>
+信息采集是老旧项目的一次重构，组件使用 Sugar，表单使用Formily开发完成。解决了原先表单切换与组件交互的卡顿问题，上线受到客户好评。
 
-### **Microsoft Research** `2020.5 - 2020.8`
+### **物料库 - Sweets**
 
-_Research Intern_<br>
-Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience.
+> 技术栈：React \| TypeScript \| bit
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
+Sweets 是 Moka 的前端物料库。将业务中重复度高的内容抽离成物料。
 
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+我主要负责：
+- 搜集汇总、识别前端项目中已存在或潜在的可以作为物料的内容，前端物料的开发与维护。
+- 物料库答疑手册、业务共建流程等相关文档编写。
+- 技术评审、代码 CR 和与业务侧同学对接等日常工作
 
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
+Sweets 搭建不久，处于积累阶段，我开发且迁移到 Sweets 的组件后续被应用在 Moka People 和 审批平台等业务中。
 
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
+## 专业技能
 
-## Mentoring
+- 熟悉 HTML5、CSS3、JavaScript、React 等前端基础<br> 
+- 熟悉 TypeScript，类型体操爱好者，可以熟练的在业务和组件开发中使用TS<br> 
+- 英语水平：CET-6<br> 
 
-[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering, independent research) `CMU, 2021 - Now` <br>
-[Helena Yang](https://heleaf.me/) (CMU, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2021` <br>
-[Max Krieger](https://a9.io/) (CMU, independent research & [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2018 - 2021` <br>
-[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2019` <br>
-[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College, [REUSE](https://www.cmu.edu/scs/s3d/reuse/)) `CMU, 2019` <br>
+## 荣誉
 
----
-
-## Honors & Awards
-
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
-## Teaching
-
-Teaching Assistant, **Foundations of Software Engineering (17-313)** `CMU, 2022` <br>
-Teaching Assistant, **Crafting Software (17-450/17-950)** `CMU, 2022` <br>
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-
-## Service
-
-Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI'21, CHI'22, SIGGRAPH'22` <br>
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2022` <br>
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+- Moka优秀新人奖、Moka杰出个人奖、Moka面试官出类拔萃奖

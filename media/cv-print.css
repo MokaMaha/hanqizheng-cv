@@ -16,7 +16,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 blockquote,
 pre,
 a,
@@ -115,6 +114,8 @@ ul {
 blockquote,
 q {
   quotes: none;
+  font-size: 0.8em;
+  color: #bbb;
 }
 blockquote:before,
 blockquote:after,
@@ -145,6 +146,16 @@ strong {
   font-weight: bold;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  line-height: 1.5em;
+  vertical-align: baseline;
+}
+
 p strong {
   font-weight: bold;
 }
@@ -156,7 +167,7 @@ em {
 h1 {
   font-family: "Avenir Next", sans-serif;
   text-align: center;
-  font-size: 50pt;
+  font-size: 18pt;
   font-weight: lighter;
   position: relative;
   line-height: 1.2em;
@@ -172,29 +183,29 @@ h1 strong {
 /* Section headers */
 h2 {
   font-family: "Avenir Next", sans-serif;
-  font-size: 20pt;
+  font-size: 18pt;
   text-align: center;
   font-weight: normal;
   display: flex;
   /* line-height: 1.5em; */
-  margin-top: 0.7em;
-  margin-bottom: 0.5em;
+  margin: 0.6em 0;
   width: 100%;
-}
-h2:after {
-  border-bottom: 1.7px dashed #d3d3d3;
-  /* height: 0.8em; */
-  margin-left: 10px;
-  content: "";
-  flex: 1;
 }
 
 h3 strong {
   /* line-height: 2.5em; */
+  background: #ddd !important;
+  padding: 4px 8px;
+  border-radius: 4px;
+  -webkit-print-color-adjust: exact;
+  -moz-print-color-adjust: exact;
+  -ms-print-color-adjust: exact;
+  print-color-adjust:  exact;
 }
 
 h3 {
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 code {
@@ -211,8 +222,9 @@ li:before {
 
 li {
   /*second line indent*/
-  padding-left: 2.25em;
-  text-indent: -1.25em;
+  padding-left: 1.25em;
+  text-indent: -0.38em;
+  line-height: 1.5em;
   /*color: #777;*/
 }
 
