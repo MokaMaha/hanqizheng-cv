@@ -22,7 +22,7 @@ Supported arguments:
 ## 基本信息
 - 基本： 韩启正 &nbsp;\|&nbsp; 男 &nbsp;\|&nbsp; 1996
 - 学历： 南开大学滨海学院 &nbsp;\|&nbsp; 本科 &nbsp;\|&nbsp; 计算机科学与技术 &nbsp;\|&nbsp; 2015.09 - 2019.06
-- 原创技术博客：[https://hanqizheng.github.io](https://hanqizheng.github.io)
+- 博客：[https://hanqizheng.github.io](https://hanqizheng.github.io)
 
 ## 专业技能
 
@@ -42,7 +42,7 @@ Supported arguments:
 
 #### **中发智能科技有限公司 - 前端开发工程师** `2019.06 - 2020.05`
 
-- 负责公司项目和业务需求开发，包含 PC 端、移动端
+- 负责公司业务需求开发，包含 PC 端、移动端
 - 负责公司项目的维护和优化
 
 ## 项目经历
@@ -61,10 +61,10 @@ Sugar Design 是 Moka 的前端基础组件库。在全业务线中广泛应用�
 - 项目优化。包括但不限于：
   - 项目按需加载配置优化、构建流程优化等。
   - 组件单测覆盖率优化。
-  - 组件文档优化。文档易用性优化、文档内容修正走查、文档内容编写简化，一条指令即可根据组件 TS 类型定义自动生成 props 说明。
+  - 文档优化。包括文档易用性优化、文档内容修正走查、添加组件 props 说明文档自动生成功能。
 
 **产生价值：**<br> 
-- **独立开发 Table 并解决了 Moka 两大业务线中，因页面包含庞大数据量表格导致的性能问题**，目前 Table 已经在 Moka **全线产品的350+页面**中应用。Table技术说明: [https://hanqizheng.github.io/2021/11/28/NewTable.html](https://hanqizheng.github.io/2021/11/28/NewTable.html)
+- **独立开发 Table 并解决了 Moka 两大业务线中，因页面包含大数据量表格导致的性能问题**，目前 Table 已经在 Moka **全线产品的350+页面**中应用。Table技术说明: [https://hanqizheng.github.io/2021/11/28/NewTable.html](https://hanqizheng.github.io/2021/11/28/NewTable.html)
 - 升级 Sugar 2.0大版本中 break changes 完成**100%平滑过渡**，业务线额外投入压缩至0.5pd/人。 Sugar 2.0 在 **Moka 全业务线替换完成**。
 - 完善了共建规范、CR规范、发版规范、commit规范、change log规范等基建规范。扩大 Sugar Design 影响力。维护成本降低20%（通过发版耗时减少比例进行粗估）。
 
